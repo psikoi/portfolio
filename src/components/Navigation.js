@@ -21,7 +21,7 @@ export class Navigation extends Component {
   render() {
     return (
       <nav>
-        <img src="/img/logo.png" alt="Ruben Amendoeira" />
+        <img src={process.env.PUBLIC_URL + '/img/logo.png'} alt="Ruben Amendoeira" />
         <ul>
           <li>WORK</li>
           <li>ABOUT</li>
