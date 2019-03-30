@@ -1,0 +1,32 @@
+.projects{
+}
+
+.projects .container{
+    margin: auto;
+    width: 850px;
+    max-width: 80%;
+    padding: 100px 0px;
+}
+
+.projects h1{
+    font-weight: 700;
+    font-size: 36px;
+    color: #182e43;
+    display: inline-block;
+    margin: 0px;
+}
+
+.projects-grid{
+    margin-top: 50px;
+    width: calc(100% + 20px);
+    text-align: center;
+    margin-left: -10px;
+}
+
+@media only screen and (max-width: 850px) {
+    .projects h1{
+        font-size: 28px;
+        margin-top: 5px;
+    }
+ }
+ 
