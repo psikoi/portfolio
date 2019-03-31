@@ -3,7 +3,7 @@ import './styles/Projects.css';
 import Selector from './Selector';
 import Thumbnail from './Thumbnail';
 
-export class Projects extends Component {
+export class Work extends Component {
 
   projects = [
     { title: "RUNELITE" },
@@ -38,4 +38,4 @@ export class Projects extends Component {
   }
 }
 
-export default Projects
+export default Work
